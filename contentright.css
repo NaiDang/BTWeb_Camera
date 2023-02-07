@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+       }
+.Ann{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+.anh1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    background-color: aliceblue;
+    
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+}
+.thongtin{
+    font-weight: bold;
+    text-align  : center;
+}
+.contact{
+    text-align: center;
+    color: red;
+}
+
+.Them{
+    width: 100px;
+    padding: 5px;   
+    margin-left: 35%;
+}
+.Name{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
